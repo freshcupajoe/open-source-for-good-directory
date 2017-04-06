@@ -57,5 +57,4 @@ const config = {
   [HTMLWebpackPluginConfig, DefinePluginConfig, LoaderOptionsPluginConfig, UglifyPluginConfig],
 };
 
-
 module.exports = config;
