@@ -1,0 +1,112 @@
+
+    <!DOCTYPE html>
+    <html>
+      <header>
+        <link rel="stylesheet" href="/style.css">
+      </header>
+      <body> 
+        <div class="wrapper">
+          <div class="fcc-banner">
+            <img src="https://cdn.glitch.com/f9a9063e-4605-4536-942e-6a948a65598e%2Ffcc-logo-white.png?1491457226808"/>
+          </div>
+          <div class="content-container">
+            <h1>test</h1>
+            <p>This repository is for the Food Bank application designed by Open Source for Good Contributors at <a href="http://www.freecodecamp.com">freeCodeCamp</a>.       </p>
+<p>We have a <a href="https://food-bank-app-demo.herokuapp.com">live demo</a>. Login with username <code>ad min</code> and password <code>password</code>.</p>
+<p>You can also test it out by deploying to <a href="https://www.heroku.com">Heroku</a>:   </p>
+<p><a href="https://heroku.com/deploy"><img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy" /></a></p>
+<p>The button creates an admin account with username <code>admin</code> and password <code>password</code>. </p>
+<p>To use Google Maps with the driver and route assignment, add a Config Setting of <code>GOOGLE_MAPS_API_KEY</code> with your API key.</p>
+<p>New deployments are provisioned with a Sendgrid addon to facilitate sending email notifications. To enable email, click on the "Resources" tab in the Heroku web page for your app. Then click on "Sendgrid" under addons and your Sendgrid account page will open. Select "API Keys" from the "Settings" dropdown menu and click "Create API key". Add a Config Setting in Heroku of <code>SENDGRID_API_KEY</code> with the API key you create. You will also need to add a <code>MAILER_FROM</code> setting with the email account you wish to send the reminders from.</p>
+<h2 id="contributing">Contributing</h2>
+<p>We welcome pull requests from seasoned Javascript developers. Please read our <a href="CONTRIBUTING.md">guide</a> first, then check out our open issues.</p>
+<p><strong>Please Note: This app is currently undergoing an overhaul to use React in place of Angular. Any current contributions made to the front end will be overwritten with this change.</strong> </p>
+<h2 id="localinstallation">Local Installation</h2>
+<p>You'll need to have the latest verison of node.js installed. Either use your OS's package manager or follow the installation instructions on the <a href="http://nodejs.org">official website</a>.</p>
+<p>Next, <a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git">install git</a> if it is not already installed. To clone this repository to your local machine, open a command line interface and navigate to your projects directory. Then type</p>
+<p><code>$ git clone https://github.com/FreeCodeCamp/food-bank-app.git</code></p>
+<p>Move to the <code>food-bank-app</code> subdirectory and type <code>npm install</code>. This installs all of Foodbank Template's dependencies.</p>
+<p>Foodbank Template uses the Grunt taskrunner to automate build processes. Install it globally with <code>npm install -g grunt-cli</code></p>
+<p>Now use a text editor to create a file named <code>.env</code>. Foodbank Template loads this file at startup to read your configuration settings. Add the following line</p>
+<p><code>NODE_ENV=development</code></p>
+<p>to indicate that you are running the app in development mode.</p>
+<p>This app uses MongoDB as its database engine. Follow <a href="https://docs.mongodb.com/manual/tutorial/install-mongodb-on-linux/">the instructions</a> to install it locally. By default, it attaches to <code>mongodb://localhost:27017/fb-dev</code>. If you want to use a differently named database, or connect to a remote MongoDB instance, add the address to the <code>MONGODB_URI</code> variable in your <code>.env</code> file.</p>
+<p>Once MongoDB is set up, you should create an admin account. Edit the admin-config.json file to create a custom user, then run</p>
+<p><code>$ grunt create-admin-user</code></p>
+<p>to add him to your database.</p>
+<p>Finally, type <code>npm start</code> to start the application. If all goes well, it will be available at <code>http://localhost:3000</code>.</p>
+            <h2>Contributors</h2>
+            <div class="contributors">
+              
+    <div class="contributer">    
+      <a class="contributer-link" href=https://api.github.com/users/AndrewGHC>
+        <img className="contributer-img" src=https://avatars3.githubusercontent.com/u/15863952?v=3/>
+      </a>
+    </div>
+    
+    <div class="contributer">    
+      <a class="contributer-link" href=https://api.github.com/users/4iar>
+        <img className="contributer-img" src=https://avatars1.githubusercontent.com/u/8053216?v=3/>
+      </a>
+    </div>
+    
+    <div class="contributer">    
+      <a class="contributer-link" href=https://api.github.com/users/invalid-email-address>
+        <img className="contributer-img" src=https://avatars3.githubusercontent.com/u/148100?v=3/>
+      </a>
+    </div>
+    
+    <div class="contributer">    
+      <a class="contributer-link" href=https://api.github.com/users/joel-bentley>
+        <img className="contributer-img" src=https://avatars3.githubusercontent.com/u/10087880?v=3/>
+      </a>
+    </div>
+    
+    <div class="contributer">    
+      <a class="contributer-link" href=https://api.github.com/users/CarlJKashnier>
+        <img className="contributer-img" src=https://avatars3.githubusercontent.com/u/13282866?v=3/>
+      </a>
+    </div>
+    
+    <div class="contributer">    
+      <a class="contributer-link" href=https://api.github.com/users/CodeNonprofit>
+        <img className="contributer-img" src=https://avatars1.githubusercontent.com/u/9578097?v=3/>
+      </a>
+    </div>
+    
+    <div class="contributer">    
+      <a class="contributer-link" href=https://api.github.com/users/QuincyLarson>
+        <img className="contributer-img" src=https://avatars2.githubusercontent.com/u/985197?v=3/>
+      </a>
+    </div>
+    
+    <div class="contributer">    
+      <a class="contributer-link" href=https://api.github.com/users/adam-lynch>
+        <img className="contributer-img" src=https://avatars2.githubusercontent.com/u/1427241?v=3/>
+      </a>
+    </div>
+    
+    <div class="contributer">    
+      <a class="contributer-link" href=https://api.github.com/users/sanspace>
+        <img className="contributer-img" src=https://avatars1.githubusercontent.com/u/347714?v=3/>
+      </a>
+    </div>
+    
+    <div class="contributer">    
+      <a class="contributer-link" href=https://api.github.com/users/anuragasaurus>
+        <img className="contributer-img" src=https://avatars3.githubusercontent.com/u/12389467?v=3/>
+      </a>
+    </div>
+    
+    <div class="contributer">    
+      <a class="contributer-link" href=https://api.github.com/users/raisedadead>
+        <img className="contributer-img" src=https://avatars3.githubusercontent.com/u/1884376?v=3/>
+      </a>
+    </div>
+    
+            </div>
+          </div>
+        </div>
+      </body>
+    </html>  
+    
