@@ -46,7 +46,7 @@ body {
   padding: 0 3em;
 }
 
-.content-container h1 {
+.repo-name {
   border-radius: 8px 8px 0 0;
   font-weight: inherit;
   background-color: #006400;
@@ -57,6 +57,13 @@ body {
   border-style: solid;
   border-width: 1px;
   border-color: #006400;
+}
+
+.content-container h1 {
+  text-align: center;
+  margin: 0;
+  padding: 0.5em 0;
+  border-bottom: 1px solid #e0e0e0;
 }
 
 .content-container h2 {
