@@ -1,0 +1,82 @@
+
+    <!DOCTYPE html>
+    <html>
+      <header>
+        <link rel="stylesheet" href="../style.css">
+      </header>
+      <body> 
+        <div class="wrapper">
+          <div class="fcc-banner">
+            <img src="https://cdn.glitch.com/f9a9063e-4605-4536-942e-6a948a65598e%2Ffcc-logo-white.png?1491457226808"/>
+          </div>
+          <div class="content-container">
+            <h1 class="repo-name">child-first-authority</h1>
+            <h1 id="childfirstauthority">Child First Authority</h1>
+<p><strong>Student absenteeism and outreach tracking app</strong></p>
+<p><a href="https://travis-ci.org/child-first-authority-fcc-project/webapp"><img src="https://travis-ci.org/child-first-authority-fcc-project/webapp.svg" alt="Build Status" /></a></p>
+<h2 id="purpose">Purpose</h2>
+<p>This application is intended to streamline the process of tracking and reporting student absenteeism for Child First Authority.</p>
+<h1 id="authenticationandauthorization">Authentication and Authorization</h1>
+<p>Google OAuth is used for authentication for using the app. Authenticated users are by default a 'guest'. The admin and super users are able to promote/demote 
+access of other users by assigning roles.</p>
+<p>The roles are:</p>
+<ul>
+<li>guest</li>
+<li>teacher</li>
+<li>manager</li>
+<li>admin</li>
+<li>super user</li>
+</ul>
+<h2 id="deployment">Deployment</h2>
+<p><strong>Vagrant</strong></p>
+<p>The development environment for working with this application can be found in this <a href="https://github.com/child-first-authority-fcc-project/vagrantbox">repository</a> </p>
+<p><strong>Heroku</strong></p>
+<p>There is a grunt task to deploy this application to Heroku. This requires the <a href="https://toolbelt.heroku.com/">heroku-toolbelt</a>. If using the development environment, the toolbelt is installed by the provisioner.</p>
+<p>After logging in to Heroku with Heroku toolbelt, deploying is accomplished by:</p>
+<pre><code>$ grunt buildcontrol:heroku
+</code></pre>
+<p>The env variables that need to be set:</p>
+<ul>
+<li>APP_SECRET = <em>SECRET</em></li>
+<li>DOMAIN = <em>SOME HTTPS DOMAIN</em></li>
+<li>GOOGLE_ID = <em>GOOGLE ID</em></li>
+<li>GOOGLE_SECRET = <em>GOOGLE SECRET</em></li>
+<li>NODE_ENV = production</li>
+<li>SUPER<em>USER</em>EMAIL = <em>EMAIL OF SUPER USER</em></li>
+</ul>
+<p>Google id and secret need to be obtained by creating an application on <a href="https://console.developers.google.com/project">Google Developers Console</a>. </p>
+<h2 id="samplepdfs">Sample PDFs</h2>
+<p>https://github.com/child-first-authority-fcc-project/sample-pdfs</p>
+            <h2>Contributors</h2>
+            <div class="contributors">
+              
+    <div class="contributer">    
+      <a class="contributer-link" href=https://api.github.com/users/dting>
+        <img className="contributer-img" src=https://avatars3.githubusercontent.com/u/394393?v=3/>
+      </a>
+    </div>
+    
+    <div class="contributer">    
+      <a class="contributer-link" href=https://api.github.com/users/pdotsani>
+        <img className="contributer-img" src=https://avatars1.githubusercontent.com/u/5272252?v=3/>
+      </a>
+    </div>
+    
+    <div class="contributer">    
+      <a class="contributer-link" href=https://api.github.com/users/rheajt>
+        <img className="contributer-img" src=https://avatars3.githubusercontent.com/u/11312561?v=3/>
+      </a>
+    </div>
+    
+    <div class="contributer">    
+      <a class="contributer-link" href=https://api.github.com/users/cjsheets>
+        <img className="contributer-img" src=https://avatars0.githubusercontent.com/u/3053829?v=3/>
+      </a>
+    </div>
+    
+            </div>
+          </div>
+        </div>
+      </body>
+    </html>  
+    
